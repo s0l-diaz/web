@@ -1,0 +1,702 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing:border-box
+}
+
+/* header */
+
+
+
+#inicio {
+  background-image: url(../IMG/pngtree-stunning-resin-geode-and-abstract-art-wallpapers-a-3d-upgrade-for-picture-image_3928565.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+}
+
+.textos{
+  position: absolute;
+  top: 38%;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+  color: rgb(255, 255, 255); 
+  text-align: center; 
+  border: 4px solid white;
+  font-size:xx-large;
+  padding: 10px;
+}
+
+.cont-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed ;
+  z-index: 9999;
+  top: 0%;
+  background-color: rgb(197, 75, 0);
+  width: 100%;
+  height: 70px;
+}
+
+.elementosNavbar {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  margin-right: 70px;
+  font-size: x-large;
+  font-variant: small-caps;
+  box-shadow: inset 0 0 0 0 rgb(197, 75, 0);
+  transition: color .4s ease-in-out, box-shadow .4s ease-in-out;
+}
+
+a:hover {
+  box-shadow: inset 150px 0 0 0 rgb(197, 75, 0);
+  color: white;
+}
+
+.titulo {
+  color: rgb(255, 255, 255);
+  margin-left: 20px;
+  font-variant: small-caps;
+}
+
+.fondo {
+  width: 100%;
+}
+
+
+/* main */
+
+main {
+  background-color: black;
+}
+
+
+/* section1 */
+
+#introduccion {
+  background-color: rgb(255, 255, 255);
+  padding: 40px;
+  
+  
+}
+
+.parrafos {
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-bottom: 20px;
+  font-size: large;
+
+}
+
+.titulo1 {
+  margin-bottom: 30px;
+  text-align: center;
+  margin-left: 250px;
+  margin-right: 250px;
+}
+
+
+/* section2 */
+
+.titulo2 {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  margin: 40px;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+
+/* section3 */
+
+#servicios {
+  background-color: rgb(255, 255, 255);
+  margin-top: 40px;
+}
+
+.titulo3 {
+  text-align: center;
+  padding-top: 40px;
+  margin-top: 20px;
+}
+
+.contenedor-servicio {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  padding-right: 170px;
+  padding-left: 160px;
+}
+
+.flores {
+  width: 300px;
+  height: 300px;
+  margin-bottom: 40px;
+}
+
+
+.servis {
+  font-size: large;
+  
+}
+
+
+/* section4 */
+
+.contenedor-cursos {
+  padding: 40px;
+  padding-left: 80px;
+  margin-right: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.titulo4 {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  margin: 40px;
+}
+
+.curso {
+  color: white;
+  margin-left: 40px;
+  font-size: large;
+}
+
+.lista {
+  margin-bottom: 10px;
+}
+
+.img-1 {
+  width: 250px;
+  height: 250px;
+}
+
+.img-2 {
+  width: 250px;
+  height: 250px;
+  margin-top: -150px;
+  margin-left: 80px;
+}
+
+
+/* section5 */
+
+#testimonio {
+  background-color: white;
+}
+
+.titulo5 {
+  text-align: center;
+  color:black;
+  margin: 20px;
+  padding: 40px;
+  font-size: 28px;
+}
+
+.clientes-t {
+  display: flex;
+  padding-left: 150px;
+  padding-right: 150px;
+  margin-bottom: 40px;
+}
+
+.cont-cliente {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border: 2px black solid;
+  border-radius: 10px;
+  margin-right: 10px;
+  box-shadow: 2px 2px 14px rgba(0, 0, 0, 3.5);
+}
+
+.cont-img-cliente:hover{
+  opacity: 80%;
+}
+
+.img-cliente {
+  height: 200px;
+  width: 200px;
+  border-radius: 50px;
+  margin-top: 20px;
+}
+
+.img-cliente :hover{
+  opacity: 40%;
+}
+
+.par-cliente {
+  margin: 20px;
+  margin-left: 80px;
+  margin-right: 80px;
+  font-size: large;
+  padding-bottom: 20px;
+}
+
+
+/* Conocenos*/
+
+#epoxiland{
+  background-image: url(../IMG/epoxiland.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+}
+
+.texto {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+  color: white; 
+  text-align: center; 
+  border: 4px solid white;
+  font-size:xx-large;
+  padding: 10px;
+  
+}
+
+.h1p {
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.cont-historia{
+  display: flex;
+  color: white;
+  
+}
+
+.cont-img-p{
+  margin: 10px;
+  /* border: 2px solid rgb(228, 102, 5); */
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.cont-img-p img{
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.cont-2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+/* GALERIA */
+
+#galeria{
+  background-image: url(../IMG/Galeria.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+}
+
+.texto1 {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+  color: white; 
+  font-size: 24px; 
+  text-align: center; 
+  border: 4px solid white;
+  font-size:xx-large;
+  padding: 10px;
+}
+
+.varios-productos{
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-size: x-large;
+}
+
+.varios-productos:hover{
+  color: #ff6347;
+}
+
+.ppp{
+  margin: 20px;
+  border-radius: 50px;
+  opacity: 0.5; /* Opacidad inicial de todas las imágenes */
+  transition: opacity 0.5s ease; /* Duración de la transición */
+}
+
+.ppp:hover{
+  opacity: 1;
+}
+
+.cont-ppp{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* SERVICIOS */
+
+#servicio{
+  background-image: url(../IMG/servicios.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+}
+
+.texto2{
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+  color: white; 
+  font-size: 24px; 
+  text-align: center; 
+  border: 4px solid white;
+  font-size:xx-large;
+  padding: 10px;
+}
+
+.servic{
+  display: flex;
+  color: white;
+  padding: 20px;
+}
+
+.text-servic{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  border:2px white solid;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 50%;
+}
+
+.text-servic img{
+  margin: 30px;
+  width: 300px;
+}
+
+
+/* TALLERES */
+#taller{
+  background-image: url(../IMG/talleres.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+}
+
+.texto3{
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+  color: white; 
+  font-size: 24px; 
+  text-align: center; 
+  border: 4px solid white;
+  font-size:xx-large;
+  padding: 10px;
+}
+
+.tal-cur{
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tall {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 430px;
+  margin-right: 430px;
+  color: white;
+  padding-top: 20px;
+}
+
+.tall h3{
+  font-size:x-large;
+  margin-bottom: 10px;
+}
+
+.info{
+  border: 2px solid white;
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  padding: 30px;
+}
+
+.info h4{
+  font-size: larger;
+  margin-bottom: 10px;
+}
+
+.inscripcion{
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+
+}
+
+.ben-ins{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  border: 2px solid white;
+  margin: 20px;
+  padding: 30px;
+  margin-left: 40px;
+  margin-right: 40px;
+ 
+}
+
+
+/* CONTACTO */
+
+#contactos{
+  background-image: url(../IMG/contacto.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+}
+
+.texto4{
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+  color: rgb(255, 255, 255); 
+  font-size: 24px; 
+  text-align: center; 
+  border: 4px solid white;
+  font-size:xx-large;
+  padding: 10px;
+
+}
+
+.formulari{
+  font-family: Arial, sans-serif;
+  background-color: #000000;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: #fff;
+  padding: 20px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  width: 300px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 40px;
+}
+
+.f-con {
+  margin-bottom: 20px;
+  font-size: 24px;
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: rgb(197, 75, 0);
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(228, 191, 5);
+}
+
+
+
+/*footer*/
+
+footer {
+  background-color: rgb(197, 75, 0);
+  width: 100%;
+  height: auto;
+}
+
+.titulo6 {
+  text-align: center;
+  color: white;
+  padding-top:20px;
+  font-size:x-large;
+}
+
+.cont-img {
+  float: left;
+}
+
+.foto {
+  height: 130px;
+  width: 100px;
+  margin-left: 300px;
+}
+
+.cont-datos {
+  float: left;
+  margin-left: 20px;
+  margin-top: 40px;
+}
+
+.cont-datos p {
+  margin-top: 10px;
+}
+
+
+.datos {
+  display: inline-block;
+  color: white;
+}
+
+.redes {
+  float: left;
+  margin-left: 400px;
+  margin-top: 40px;
+
+}
+
+.redes p {
+  margin-top: 10px;
+}
+
+.fuente {
+  margin-left: 10px;
+}
